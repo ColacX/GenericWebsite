@@ -26,8 +26,8 @@ public class BundleConfig
 		//scripts---------------------------------------------------
 		bundles.Add(new ScriptBundle("~/bundle/scripts/angular").Include(
 			"~/Scripts/angular.js",
-			"~/Scripts/angular.min.js",
-			"~/Scripts/angular.min.js.map"
+			"~/Scripts/angular.min.js"
+			//"~/Scripts/angular.min.js.map"
 		));
 
 		bundles.Add(new ScriptBundle("~/bundle/scripts/test").Include(
