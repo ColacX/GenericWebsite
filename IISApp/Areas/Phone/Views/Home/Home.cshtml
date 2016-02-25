@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Phone Home</title>
+	@Styles.Render("~/bundle/scripts/bootstrap")
+	@*@Scripts.Render("~/bundle/scripts/angular")*@
+	@Scripts.Render("~/bundle/scripts/phone")
+	@Scripts.Render("~/bundle/scripts/test")
+</head>
+<body style="background-color:grey; width:100%">
+	<div>
+		<h1>Phone Home</h1>
+	</div>
+
+	@*conclusions for small mobile devices we should use the container-fluid as we want to make the most of every pixel in the small screen
+		for larger devices we typically do not want to use a full-widescreen page, as reading a document makes it terrible for the reader to keep track of which row they are reading*@
+	@*http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp*@
+	@*http://stackoverflow.com/questions/18277189/what-does-horizontal-at-all-times-mean*@
+	@*http://stackoverflow.com/questions/18969051/bootstrap-3-why-is-row-class-is-wider-than-its-container*@
+	@*http://stackoverflow.com/questions/30610143/why-does-google-chrome-emulator-show-iphone-6-at-375x667-resolution*@
+
+	<div style="width:100%; background-color:powderblue">100% width. adklsajdkl asjdkl asjdklajd klajs lkdajdlk jaslkdjsal jdsalk jdlksajd lkajd klasjd klasjd lkasjdlkaj dlkasjd kad</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+			<div class="col-xs-1" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+			<div class="col-xs-2" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-xs-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-xs-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+			<div class="col-md-1" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-md-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-md-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-md-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-md-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-md-2" style="background-color:green">test</div>
+			<div class="col-md-2" style="background-color:green">test</div>
+			<div class="col-md-2" style="background-color:green">test</div>
+			<div class="col-md-2" style="background-color:green">test</div>
+			<div class="col-md-2" style="background-color:green">test</div>
+			<div class="col-md-2" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-md-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-md-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-md-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-md-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-md-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-md-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+			<div class="col-sm-1" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-3" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-3" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+			<div class="col-sm-2" style="background-color:green">test</div>
+		</div>
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+			<div class="col-sm-2" style="background-color:yellow;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+			<div class="col-sm-2" style="background-color:pink;">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			@*columns sizes should always sum up to 12 in a row*@
+			<div class="col-xs-6" style="background-color:yellow;">
+				<img src="~/Content/Image/rl4ib.png" />
+			</div>
+			<div class="col-xs-6" style="background-color:pink;">
+				<img src="~/Content/Image/rl4ib.png" />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
