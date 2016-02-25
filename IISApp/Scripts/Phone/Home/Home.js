@@ -1,1 +1,4 @@
-﻿console.log("phone/home.js");
+﻿'use strict';
+
+console.log("phone/home.js");
+

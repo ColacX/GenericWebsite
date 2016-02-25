@@ -10,10 +10,14 @@
 	@Scripts.Render("~/bundle/scripts/phone")
 	@Scripts.Render("~/bundle/scripts/test")
 </head>
-<body style="background-color:grey; width:100%">
+<body style="background-color:grey; width:100%" ng-app="SiteModule" ng-controller="SiteController">
 	<div>
 		<h1>Phone Home</h1>
 	</div>
+
+	<div ui-view="viewA"></div>
+	<a ui-sref="state1">State 1</a>
+	<a ui-sref="state2">State 2</a>
 
 	@*conclusions for small mobile devices we should use the container-fluid as we want to make the most of every pixel in the small screen
 		for larger devices we typically do not want to use a full-widescreen page, as reading a document makes it terrible for the reader to keep track of which row they are reading*@

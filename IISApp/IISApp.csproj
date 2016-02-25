@@ -187,7 +187,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Areas\Phone\Views\Home\Swipe.cshtml" />
+    <Content Include="Areas\Phone\Views\Home\Test1.cshtml" />
+    <Content Include="Areas\Phone\Views\Home\Test2.cshtml" />
+    <Content Include="Areas\Test\Views\web.config" />
+    <Content Include="Areas\Test\Views\Test\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -952,6 +955,8 @@
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
     <Compile Include="Areas\Phone\Controllers\HomeController.cs" />
     <Compile Include="Areas\Phone\PhoneAreaRegistration.cs" />
+    <Compile Include="Areas\Test\Controllers\TestController.cs" />
+    <Compile Include="Areas\Test\TestAreaRegistration.cs" />
     <Compile Include="Areas\Web\Controllers\HomeController.cs" />
     <Compile Include="Areas\Web\WebAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -982,6 +987,7 @@
     <Folder Include="Areas\Api\Views\Shared\" />
     <Folder Include="Areas\Phone\Models\" />
     <Folder Include="Areas\Phone\Views\Shared\" />
+    <Folder Include="Areas\Test\Models\" />
     <Folder Include="Areas\Web\Models\" />
     <Folder Include="Areas\Web\Views\Shared\" />
     <Folder Include="Content\Test\" />
