@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Phone Home</title>
 	@Styles.Render("~/bundle/scripts/bootstrap")
 	@Scripts.Render("~/bundle/scripts/angular")
@@ -15,7 +15,7 @@
 		<h1>Phone Home</h1>
 	</div>
 
-	<div ui-view="viewA"></div>
+	<div ui-view="mainView"></div>
 	<a ui-sref="state1">State 1</a>
 	<a ui-sref="state2">State 2</a>
 

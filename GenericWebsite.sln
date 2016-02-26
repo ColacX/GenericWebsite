@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLayer", "DatabaseLayer\DatabaseLayer.csproj", "{FEA044EA-C500-4B6F-A872-0D956FF3109D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{867F204B-04A9-4300-9DC4-62D636852D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69B3AF6E-A870-4F0E-89A3-C315C5EFDA3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB2AB5B0-0030-423A-873F-3FB1E490DD30} = {867F204B-04A9-4300-9DC4-62D636852D9F}
+		{FEA044EA-C500-4B6F-A872-0D956FF3109D} = {867F204B-04A9-4300-9DC4-62D636852D9F}
 	EndGlobalSection
 EndGlobal
