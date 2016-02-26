@@ -953,6 +953,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Areas\Api\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Api\Controllers\FiledataController.cs" />
+    <Compile Include="Areas\Api\Controllers\NewsController.cs" />
+    <Compile Include="Areas\Api\Controllers\NotificationController.cs" />
     <Compile Include="Areas\Phone\Controllers\HomeController.cs" />
     <Compile Include="Areas\Phone\PhoneAreaRegistration.cs" />
     <Compile Include="Areas\Test\Controllers\TestController.cs" />
@@ -968,7 +972,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Areas\Api\Views\web.config" />
     <Content Include="Areas\Web\Views\web.config" />
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -981,12 +984,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Areas\Api\Controllers\" />
+    <Folder Include="App_Data\Filedata\" />
+    <Folder Include="App_Data\Tempdata\" />
     <Folder Include="Areas\Api\Models\" />
-    <Folder Include="Areas\Api\Views\Shared\" />
     <Folder Include="Areas\Phone\Models\" />
-    <Folder Include="Areas\Phone\Views\Shared\" />
     <Folder Include="Areas\Test\Models\" />
     <Folder Include="Areas\Web\Models\" />
     <Folder Include="Areas\Web\Views\Shared\" />
