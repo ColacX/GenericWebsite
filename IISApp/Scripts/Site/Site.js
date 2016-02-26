@@ -2,7 +2,7 @@
 console.log("Site.js");
 
 //define module and dependencies to other modules
-angular.module('SiteModule', ['ngAnimate', 'ngTouch', 'ui.router', 'ui.bootstrap', 'ui.bootstrap.carousel']);
+angular.module('SiteModule', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.carousel', 'ngAnimate', 'ngTouch']);
 
 //define services
 angular.module('SiteModule').service('TestService', ['$log', function ($log) {

@@ -24,10 +24,12 @@ public class BundleConfig
 		));
 
 		//scripts---------------------------------------------------
-		bundles.Add(new ScriptBundle("~/bundle/scripts/angular").Include(
+		bundles.Add(new ScriptBundle("~/bundle/scripts/jquery").Include(
 			"~/Scripts/modernizr-{version}.js",
-			"~/Scripts/jquery-{version}.js",
+			"~/Scripts/jquery-{version}.js"
+		));
 
+		bundles.Add(new ScriptBundle("~/bundle/scripts/angular").Include(
 			"~/Scripts/angular.js",
 			"~/Scripts/angular.min.js",
 			//"~/Scripts/angular.min.js.map",
