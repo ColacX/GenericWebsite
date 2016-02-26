@@ -4,8 +4,11 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Phone Home</title>
-	@Styles.Render("~/bundle/scripts/bootstrap")
+	@Styles.Render("~/bundle/styles/bootstrap")
+
 	@Scripts.Render("~/bundle/scripts/angular")
+	@Scripts.Render("~/bundle/scripts/bootstrap")
+	
 	@Scripts.Render("~/bundle/scripts/site")
 	@Scripts.Render("~/bundle/scripts/phone")
 	@Scripts.Render("~/bundle/scripts/test")
@@ -18,6 +21,8 @@
 	<div ui-view="mainView"></div>
 	<a ui-sref="state1">State 1</a>
 	<a ui-sref="state2">State 2</a>
+	<a ui-sref="news">News</a>
+	<a ui-sref="gallery">Gallery</a>
 
 	@*conclusions for small mobile devices we should use the container-fluid as we want to make the most of every pixel in the small screen
 		for larger devices we typically do not want to use a full-widescreen page, as reading a document makes it terrible for the reader to keep track of which row they are reading*@

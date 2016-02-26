@@ -18,5 +18,15 @@ namespace IISApp.Areas.Phone.Controllers
 		{
 			return View("Test2");
 		}
+
+		public ActionResult News()
+		{
+			return View("News");
+		}
+
+		public ActionResult Gallery()
+		{
+			return View("Gallery");
+		}
 	}
 }
