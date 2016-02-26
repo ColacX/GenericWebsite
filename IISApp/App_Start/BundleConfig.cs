@@ -36,6 +36,10 @@ public class BundleConfig
 			"~/Scripts/angular-route.min.js",
 			//"~/Scripts/angular-route.min.js.map",
 
+			"~/Scripts/angular-animate.js",
+			"~/Scripts/angular-animate.min.js",
+			//"~/Scripts/angular-animate.min.js.map",
+
 			"~/Scripts/angular-touch.js",
 			"~/Scripts/angular-touch.min.js",
 			//"~/Scripts/angular-touch.min.js.map",
